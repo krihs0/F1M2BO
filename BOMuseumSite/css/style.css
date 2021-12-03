@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #4E4E4E;
+    color: white;
+}
+
+nav p{
+    display: inline;
+    margin-right: 10px;
+}
+
+#vlaggen{
+
+}
+
+#vlaggen img{
+    height: 33px;
+    display: inline;
+    margin: 10px;
+}
+
+main{
+    background-image: url(../img/Rijksmuseumb1.jpeg);
+    height: 200px;
+}
+
+main div{
+    background-color: #4E4E4E;
+}
