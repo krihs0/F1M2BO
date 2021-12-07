@@ -14,11 +14,7 @@ nav p{
     margin-right: 10px;
 }
 
-#vlaggen{
-
-}
-
-#vlaggen img{
+.vlaggen img{
     height: 33px;
     display: inline;
     margin: 10px;
@@ -31,4 +27,18 @@ main{
 
 main div{
     background-color: #4E4E4E;
+}
+
+footer{
+    background-color: #4E4E4E;
+}
+
+#line{
+    margin-left: 20px;
+    margin-right: 20px;
+    border-top: solid 2px black;
+}
+
+.cursorclick:hover{
+    cursor: pointer; 
 }

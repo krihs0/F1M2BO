@@ -12,13 +12,13 @@
     <header>
         <h1>RIJKSMUSEUM</h1>
         <nav>
-            <p id="tour">Tour</p>
-            <p id="info">Info</p>
-            <p id="tickets">Tickets</p>
+            <p class="cursorclick" id="tour">Tour</p>
+            <p class="cursorclick" id="info">Info</p>
+            <p class="cursorclick" id="tickets">Tickets</p>
         </nav>
-        <div id="vlaggen">
-            <img src="img/NL-vlag.jpeg" alt="Nederlandse vlag">
-            <img src="img/UK-vlag.jpeg" alt="Engelse vlag">
+        <div class="vlaggen">
+            <img class="cursorclick" onclick="onClickNL()" id="NL-vlag" src="img/NL-vlag.jpeg" alt="Nederlandse vlag">
+            <img class="cursorclick" onclick="onClickUK()" id="UK-vlag" src="img/UK-vlag.jpeg" alt="Engelse vlag">
         </div>
     </header>
     <main>
@@ -37,5 +37,16 @@
             </p>
         </div>
     </main>
+    <footer>
+        <p id="line"></p>
+        <h2>Contact</h2>
+        <ul>
+            <li>Rijksmuseum Amsterdam </li>
+            <li>Postbus 74888</li>
+            <li>1070 DN Amsterdam</li>
+            <li>E-mail: info@rijksmuseum.nl</li>
+            <li>Telefoonnummer: +31 (0) 20 6747 000</li>
+        </ul>
+    </footer>
 </body>
 </html>
