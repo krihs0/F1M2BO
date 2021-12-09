@@ -11,18 +11,21 @@
 <body>
     <header>
         <h1>RIJKSMUSEUM</h1>
-        <nav>
-            <p class="cursorclick" id="tour">Tour</p>
-            <p class="cursorclick" id="info">Info</p>
-            <p class="cursorclick" id="tickets">Tickets</p>
-        </nav>
-        <div class="vlaggen">
-            <img class="cursorclick" onclick="onClickNL()" id="NL-vlag" src="img/NL-vlag.jpeg" alt="Nederlandse vlag">
-            <img class="cursorclick" onclick="onClickUK()" id="UK-vlag" src="img/UK-vlag.jpeg" alt="Engelse vlag">
+        <div class="navBar">
+            <nav>
+                <p class="pointer" onclick="navBar(0)" id="tour">Tour</p>
+                <p class="pointer" onclick="navBar(1)" id="info">Info</p>
+                <p class="pointer" onclick="navBar(2)" id="tickets">Tickets</p>
+            </nav>
+            <div class="vlaggen">
+                <img class="pointer" onclick="onClickNL()" id="NL-vlag" src="img/NL-vlag.jpeg" alt="Nederlandse vlag">
+                <img class="pointer" onclick="onClickUK()" id="UK-vlag" src="img/UK-vlag.jpeg" alt="Engelse vlag">
+            </div>
         </div>
     </header>
     <main>
         <div>
+            <h3>Lorem ipsum</h3>
             <p>
                 Lorem ipsum dolor sit amet, 
                 consectetur adipiscing elit. 

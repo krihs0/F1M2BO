@@ -14,19 +14,47 @@ nav p{
     margin-right: 10px;
 }
 
+nav{
+display: inline-flex;
+align-self: center;
+}
+
 .vlaggen img{
-    height: 33px;
     display: inline;
+    height: 33px;
     margin: 10px;
+}
+
+.vlaggen{
+    display: inline-flex;
+    align-self: center;
+}
+
+.navBar{
+    display: flex;
+    justify-content: end;
+    align-self: center;
 }
 
 main{
     background-image: url(../img/Rijksmuseumb1.jpeg);
-    height: 200px;
+    height: 1280px;
+}
+
+main img{
+    width: 100%;
+    height: 100%;
 }
 
 main div{
+    display: flex;
     background-color: #4E4E4E;
+    width: 900px;
+    height: 700px;
+    margin-right: 50px;
+    float: right;
+    justify-content: end;
+    margin-top: 50px;
 }
 
 footer{
@@ -39,6 +67,6 @@ footer{
     border-top: solid 2px black;
 }
 
-.cursorclick:hover{
+.pointer:hover{
     cursor: pointer; 
 }
