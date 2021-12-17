@@ -7,25 +7,28 @@
     <title>Rijksmuseum|Beroepsopdracht</title>
     <link rel="stylesheet" href="css/style.css">
     <script lang="text/javascript" src="js/script.js"></script>
+    <link rel="preload" href="fonts/Rijksmuseum-Bold.woff2" as="font" crossorigin="">
+    <link rel="preload" href="fonts/Rijksmuseum-Normal.woff2" as="font" crossorigin="">
 </head>
 <body>
     <header>
-        <h1>RIJKSMUSEUM</h1>
-        <div class="navBar">
+        <div class="header">
+            <h1>RIJKSMUSEUM</h1>
+        </div>
+        <div class="header">
             <nav>
-                <p class="pointer" onclick="navBar(0)" id="tour">Tour</p>
-                <p class="pointer" onclick="navBar(1)" id="info">Info</p>
-                <p class="pointer" onclick="navBar(2)" id="tickets">Tickets</p>
+                <a class="pointer" href="tour.html">Tour</a>
+                <a class="pointer" href="info.html">Info</a>
+                <a class="pointer" href="tickets.html">Tickets</a>
+                <img class="pointer" onclick="DayNight()" src="img/night-mode (1).png" alt="night/day mode icon">
+                <img class="pointer" onclick="onClickNL()" src="img/NL-vlag.jpeg" alt="Nederlandse vlag">
+                <img class="pointer" onclick="onClickUK()" src="img/UK-vlag.jpeg" alt="Engelse vlag">
             </nav>
-            <div class="vlaggen">
-                <img class="pointer" onclick="onClickNL()" id="NL-vlag" src="img/NL-vlag.jpeg" alt="Nederlandse vlag">
-                <img class="pointer" onclick="onClickUK()" id="UK-vlag" src="img/UK-vlag.jpeg" alt="Engelse vlag">
-            </div>
         </div>
     </header>
     <main>
         <div>
-            <h3>Lorem ipsum</h3>
+            <h2>Lorem ipsum</h2>
             <p>
                 Lorem ipsum dolor sit amet, 
                 consectetur adipiscing elit. 
@@ -40,6 +43,9 @@
             </p>
         </div>
     </main>
+    <article>
+
+    </article>
     <footer>
         <p id="line"></p>
         <h2>Contact</h2>

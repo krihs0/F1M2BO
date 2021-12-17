@@ -15,13 +15,3 @@ function setLang(){
     //set lang tag/change page
     console.log(lang)
 }
-
-let pages = [
-    "tour.html",
-    "info.html",
-    "tickets.html"
-];
-
-function navBar(index){
-    location.href = pages[index];
-}
