@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+    width="39" height="13">
+  <defs>
+    <style type="text/css">
+      <![CDATA[
+        .empty {
+          fill: #CCC;
+        }
+        .filled {
+          fill: #DD4B39;
+        }
+      ]]>
+    </style>
+
+    <polygon id="polygon-star" points="6.5,0 8.029,4.7 13,4.7 8.98,8 10.52,12.7 6.5,9.4 2.48,12.7 4.02,8 0,4.7 4.97,4.7" />
+    <polygon id="polygon-star-half" points="6.5,9.4 6.5,0 4.97,4.7 0,4.7 4.02,8 2.48,12.7" />
+
+    <use id="empty-star" xlink:href="#polygon-star" class="empty" />
+    <use id="full-star" xlink:href="#polygon-star" class="filled" />
+    <g id="half-star">
+        <use xlink:href="#empty-star" />
+        <use xlink:href="#polygon-star-half" class="filled" />
+    </g>
+  </defs>
+
+  <use xlink:href="#full-star" x="0" />
+  <use xlink:href="#half-star" x="13" />
+  <use xlink:href="#empty-star" x="26" />
+</svg>

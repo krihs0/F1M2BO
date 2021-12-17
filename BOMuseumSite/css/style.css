@@ -7,6 +7,7 @@
 header{
     background-color: #4E4E4E;
     color: white;
+    height: 60px;
 }
 
 nav p{
@@ -30,15 +31,23 @@ align-self: center;
     align-self: center;
 }
 
+h1{
+    height: 50px;
+    display: inline-flex;
+    margin: 10px;
+}
+
 .navBar{
-    display: flex;
+    display: inline-flex;
+    float: right;
     justify-content: end;
-    align-self: center;
 }
 
 main{
     background-image: url(../img/Rijksmuseumb1.jpeg);
     height: 1280px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 main img{
