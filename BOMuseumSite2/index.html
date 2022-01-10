@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/article.css">
+    <link rel="stylesheet" href="css/slideshow.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <h1>RIJKSMUSEUM</h1>
+        </div>
+        <div class="header">
+            <nav>
+                <a class="pointer" href="tour.html">Tour</a>
+                <a class="pointer" href="info.html">Info</a>
+                <a class="pointer" href="tickets.html">Tickets</a>
+                <img class="pointer" onclick="DayNight()" src="img/night-mode (1).png" alt="night/day mode icon">
+                <img class="pointer" onclick="onClickNL()" src="img/NL-vlag.jpeg" alt="Nederlandse vlag">
+                <img class="pointer" onclick="onClickUK()" src="img/UK-vlag.jpeg" alt="Engelse vlag">
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div>
+            <h2>Lorem ipsum</h2>
+            <p>
+                Lorem ipsum dolor sit amet, 
+                consectetur adipiscing elit. 
+                Vivamus vel augue dolor. 
+                Nulla feugiat consequat consectetur. 
+                Aenean finibus neque eu quam fermentum, 
+                eget tincidunt sapien blandit. 
+                Pellentesque ornare tortor erat, 
+                ut feugiat nisi lobortis sit amet. 
+                Phasellus consequat facilisis risus. 
+                Phasellus id nulla sed massa bibendum pulvinar.
+            </p>
+        </div>
+    </main>
+    <article>
+    <div class="slideshow">
+        <div class="slideshow-container" >
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade" style="display: block;">
+            <img src="img/slideshow/img1.jpg" style="width:100%">
+            </div>
+            
+            <div class="mySlides fade" style="display: none;">
+            <img src="img/slideshow/img2.jpg" style="width:100%">
+            </div>
+            
+            <div class="mySlides fade" style="display: none;">
+            <img src="img/slideshow/img3.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides fade" style="display: none;">
+            <img src="img/slideshow/img4.jpg" style="width:100%">
+            </div>
+                
+            <div class="mySlides fade" style="display: none;">
+            <img src="img/slideshow/img5.jpg" style="width:100%">
+            </div>
+        
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            <div class="dots" style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+            </div>
+        </div>
+
+        <div class="slideshow-container" id="text">
+        <h2>Vergeet me niet</h2>
+        <br>
+        <h3 id="myTitle">Portret van een jonge vrouw</h3>
+        <p id="myDescription">
+            Er is bijzonder weinig bekend over dit revolutionaire 
+            portret van een jonge vrouw uit de late vijftiende eeuw. 
+            We weten wel wie de maker is. 
+            Het is Petrus Christus (1425-1476), 
+            een Vlaamse kunstschilder van de late gotiek. 
+            Hij wordt gerekend tot een stijlperiode die men ook 
+            wel aanduidt als de periode van de Vlaamse primitieven.
+        </p>
+        </div>
+        <script src="js/slideshow.js"></script>
+    </div>
+    </article>
+    <footer></footer>
+</body>
+</html>

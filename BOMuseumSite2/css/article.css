@@ -1,0 +1,11 @@
+body {
+    background-color: #667292;
+}
+
+article{
+    width: 70vw;
+    margin: 0 auto;
+    padding: 40px;
+    overflow: hidden;
+}
+
