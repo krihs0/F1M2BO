@@ -13,3 +13,25 @@ main div{
     margin: 150px;
 
 }
+
+#welkom{
+    font-size: 35px;
+    padding-left: 20px;
+    padding-right: 50px;
+}
+
+#myDescription{
+    padding-top: 5px;
+    font-size: 17px;
+}
+
+h2{
+    padding-bottom: 5px;
+}
+
+#mainHeader{
+    font-size: 45px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
