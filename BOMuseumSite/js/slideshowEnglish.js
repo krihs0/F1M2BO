@@ -2,13 +2,13 @@ const myTitle = document.getElementById("myTitle");
 const myDescription = document.getElementById("myDescription");
 
 let titles = [
-  "Portret of a man",
-  "Portret of a young woman",
-  "Portret of Thomas Gresham",
-  "Portretten of Giuliano and Francesco Giamberti da Sangallo",
-  "Portret of an African man",
-  "Portret of a Man",
-  "Portret of a young woman"
+  "Portrait of a man",
+  "Portrait of a young woman",
+  "Portrait of Thomas Gresham",
+  "Portraits of Giuliano and Francesco Giamberti da Sangallo",
+  "Portrait of an African man",
+  "Portrait of a Man",
+  "Portrait of a young woman"
 ]
 
 let descriptions = [
@@ -51,4 +51,8 @@ function showSlides(n) {
   console.log(n)
   myTitle.innerHTML = titles[n];
   myDescription.innerHTML = descriptions[n];
+}
+
+function onClickNL(){
+  window.location.assign("index.html");
 }

@@ -39,3 +39,7 @@ nav img{
     width: 50vw;
 }
 
+.line {
+    border-top: solid 1px white;
+    margin: 2vw;
+}

@@ -52,3 +52,7 @@ function showSlides(n) {
   myTitle.innerHTML = titles[n];
   myDescription.innerHTML = descriptions[n];
 }
+
+function onClickUK(){
+  window.location.assign("english.html");
+}
