@@ -14,24 +14,27 @@ main div{
 
 }
 
-#welkom{
+.welkom{
     font-size: 35px;
     padding-left: 20px;
     padding-right: 50px;
 }
 
-#myDescription{
+.slidetext{
     padding-top: 5px;
     font-size: 17px;
 }
 
-h2{
-    padding-bottom: 5px;
-}
-
-#mainHeader{
+.mainHeader{
     font-size: 45px;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 20px;
+}
+
+.routesoon{
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    border: solid 3px rgb(238, 255, 0);
 }

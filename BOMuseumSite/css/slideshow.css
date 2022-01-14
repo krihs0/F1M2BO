@@ -2,19 +2,19 @@
 
 /* Slideshow container */
 .slideshow-container {
-
   max-width: 35vw;
   position: relative;
   float: right;
 }
 
-#text{
+.slidetext{
   width:25vw;
   float: left;
 }
 
-#text h2{
+.slidetext h2{
   border-bottom: 1px solid white;
+  padding-bottom: 5px;
 }
 
 /* Hide the images by default */

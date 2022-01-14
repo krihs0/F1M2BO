@@ -43,3 +43,20 @@ nav img{
     border-top: solid 1px white;
     margin: 2vw;
 }
+
+footer{
+    width: 85vw;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.footerinfo li{
+    list-style: none;
+}
+
+.footerinfo{
+    float: left;
+	padding: 0 8px;
+	width: 25%;
+    margin-bottom: 25px;
+}
