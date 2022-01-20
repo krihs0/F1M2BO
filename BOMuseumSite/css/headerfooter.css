@@ -12,31 +12,33 @@ header{
     align-items: center;
     background-color: #667292;
     overflow: hidden;
-}
-
-h1{
-    font-size: 250%;
-    display: inline;
+    height: 55px;
 }
 
 nav{
     display: flex;
     float: right;
+    align-items: center;
 }
 
 nav a{
-    line-height: 30px;
-    padding-right: 10px;
+    padding-right: 15px;
     text-decoration: none;
+    font-size: large;
 }
 
 nav img{
-    height: 30px;
+    height: 35px;
     padding-right: 10px;
 }
 
 .header{
     width: 50vw;
+}
+
+.header a img{
+    height: 40px;
+    padding-left: 5px;
 }
 
 .line {

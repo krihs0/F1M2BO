@@ -1,22 +1,36 @@
 main{
+    min-height: 100vh;
+}
+
+.main{
     background-image: url(../img/254a3108-b445-455b-a27b-cb3dcb8f65b0.jpeg);
     height: 66.668vw;
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }   
 
-main div{
+.mainblock{
     float: left;
     background-color: #667292;
-    width: 900px;
-    height: 700px;
-    margin: 150px;
+    width: 700px;
+    height: 550px;
+    margin: 200px 0 0 250px;
 
 }
 
-.welkom{
+.blockpadding{
+    padding: 20px;
+}
+
+h1{
+    padding-left: 10px;
+    padding-bottom: 15px;
     font-size: 35px;
-    padding-left: 20px;
+}
+
+.welkom{
+    padding-left: 10px;
+    font-size: 25px;
     padding-right: 50px;
 }
 

@@ -2,7 +2,7 @@ body {
     background-color: #667292;
 }
 
-article{
+.article{
     width: 70vw;
     margin: 0 auto;
     padding: 40px;
@@ -10,6 +10,23 @@ article{
 }
 
 .route{
-    margin-top: 100px;
+    margin-top: 70px;
     width: 40vw;
+}
+
+.overzicht{
+    width: 350px;
+    height: 450px;
+    background-color: #5d6683;
+    margin:70px 15vw 0 auto;
+}
+
+.overzicht h3{
+    border-bottom: solid white 1px;
+    margin-bottom: 20px;
+}
+
+.overzicht ul{
+    margin-bottom: 30px;
+    padding-left: 20px;
 }
