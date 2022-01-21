@@ -30,3 +30,13 @@ body {
     margin-bottom: 30px;
     padding-left: 20px;
 }
+
+.reviews,.ratings{
+    display: inline;
+    float: left ;
+    padding-top: 70px;
+}
+
+.ratings{
+    padding-left: 50px;
+}
