@@ -56,3 +56,7 @@ function showSlides(n) {
 function onClickUK(){
   window.location.assign("english.html");
 }
+
+function DayNight(){
+  alert("in development")
+}

@@ -15,19 +15,19 @@ header{
     height: 55px;
 }
 
-nav{
+.nav{
     display: flex;
     float: right;
     align-items: center;
 }
 
-nav a{
+.nav a{
     padding-right: 15px;
     text-decoration: none;
     font-size: large;
 }
 
-nav img{
+.nav img{
     height: 35px;
     padding-right: 10px;
 }

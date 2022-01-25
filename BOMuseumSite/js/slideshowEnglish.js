@@ -56,3 +56,7 @@ function showSlides(n) {
 function onClickNL(){
   window.location.assign("index.html");
 }
+
+function DayNight(){
+  alert("in development")
+}

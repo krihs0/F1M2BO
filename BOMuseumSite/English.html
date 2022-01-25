@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="NL">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,104 +15,143 @@
 <body>
     <header>
         <div class="header">
-            <h1>RIJKSMUSEUM</h1>
+            <a href="index.html">
+                <img src="img/Rijkslogo.png" alt="rijksmuseum icon">
+            </a>
         </div>
         <div class="header">
-            <nav>
+            <nav class="nav">
                 <a class="pointer" href="tour.html">Tour</a>
-                <a class="pointer" href="info.html">Info</a>
-                <a class="pointer" href="https://www.rijksmuseum.nl/en/tickets/artikelen">Tickets</a>
+                <a class="pointer" href="https://www.rijksmuseum.nl/nl/tickets/artikelen">Tickets</a>
                 <img class="pointer" onclick="DayNight()" src="img/night-mode1.png" alt="night/day mode icon">
-                <img class="pointer" onclick="onClickNL()" src="img/NL-vlag.jpeg" alt="Nederlandse vlag">
-                <img class="pointer" onclick="onClickUK()" src="img/UK-vlag.jpeg" alt="Engelse vlag">
+                <img class="pointer" onclick="onClickNL()" src="img/NL-vlag.jpeg" alt="Dutch vlag">
+                <img class="pointer" onclick="onClickUK()" src="img/UK-vlag.jpeg" alt="English vlag">
             </nav>
         </div>
     </header>
     <main>
-        <div>
-            <h2 id="mainHeader">Hello and welcome to the Rijksmeseum.</h2>
-            <p id="welkom">
-                We are the Rijksmeseum adn we opened in 1885.
-                The Rijksmeseum was created because wanted to spark love for the land again.
-                Now 137 years later we are still going strong, keeping art save and also creating great expositions.
-                The Rijksmeseum has changed a lot over the years and now finally we are online.
-                Even now in these hard times we're working really hard to still be able to show people beatifull art and other things, and now we have an online Museum.
-            </p>
-        </div>
-    </main>
-    <article>
-    <div class="slideshow">
-        <div class="slideshow-container" >
-            <!-- Full-width images with number and caption text -->
-            <div class="mySlides fade" style="display: block;">
-            <img src="img/slideshow/img1.jpg" alt="Portrait of a young woman" style="width:100%">
+        <article class="main">
+            <div class="mainblock">
+                <div class="blockpadding">
+                    <h1>Hello and welcome to the Rijksmeseum</h1>
+                    <p class="welkom">
+                        We are the Rijksmeseum adn we opened in 1885.
+                        The Rijksmeseum was created because wanted to spark love for the land again.
+                    </p>
+                    <br>
+                    <p class="welkom">
+                        Now 137 years later we are still going strong, keeping art save and also creating great expositions.
+                    </p>
+                    <br>
+                    <p class="welkom">
+                        The Rijksmeseum has changed a lot over the years and now finally we are online.
+                        Even now in these hard times we're working really hard to still be able to show people beatifull art and other things, 
+                        and now we have an online Museum.
+                    </p>
+                </div>
             </div>
-            
-            <div class="mySlides fade" style="display: none;">
-            <img src="img/slideshow/img2.jpg" alt="Portrait of Thomas Gresham" style="width:100%">
-            </div>
-            
-            <div class="mySlides fade" style="display: none;">
-            <img src="img/slideshow/img3.jpg" alt="Portraits of Giuliano and Francesco Giamberti da Sangallo" style="width:100%">
-            </div>
-
-            <div class="mySlides fade" style="display: none;">
-            <img src="img/slideshow/img4.jpg" alt="Portrait of an African man" style="width:100%">
-            </div>
+        </article>
+        <article class="article">
+        <div class="slideshow">
+            <div class="slideshow-container" >
+                <!-- Full-width images -->
+                <div class="mySlides fade" style="display: block;">
+                <img src="img/slideshow/img1.jpg" alt="Portrait of a young woman" style="width:100%">
+                </div>
                 
-            <div class="mySlides fade" style="display: none;">
-            <img src="img/slideshow/img5.jpg" alt="Portrait of a Man" style="width:100%">
-            </div>
-        
-            <!-- Next and previous buttons -->
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
-            <div class="dots" style="text-align:center">
-                <span class="dot" onclick="currentSlide(1)"></span>
-                <span class="dot" onclick="currentSlide(2)"></span>
-                <span class="dot" onclick="currentSlide(3)"></span>
-                <span class="dot" onclick="currentSlide(4)"></span>
-                <span class="dot" onclick="currentSlide(5)"></span>
-            </div>
-        </div>
+                <div class="mySlides fade" style="display: none;">
+                <img src="img/slideshow/img2.jpg" alt="Portrait of Thomas Gresham" style="width:100%">
+                </div>
+                
+                <div class="mySlides fade" style="display: none;">
+                <img src="img/slideshow/img3.jpg" alt="Portraits of Giuliano and Francesco Giamberti da Sangallo" style="width:100%">
+                </div>
 
-        <div class="slideshow-container" id="text">
-        <h2>Don't forget me</h2>
-        <br>
-        <h3 id="myTitle">Portret of young lady</h3>
-        <p id="myDescription">
-            There isn't a lot of information about the revolutionary painting from the late fifteenth century. 
-            We do know who made the painting. 
-            It's Petrus Christus (1425-1476), 
-            a Vlaamse painter from the late gotiek. 
-            He can also be recognized by the weird way he paints, 
-            that indicates that he's from that time.
-        </p>
+                <div class="mySlides fade" style="display: none;">
+                <img src="img/slideshow/img4.jpg" alt="Portrait of an African man" style="width:100%">
+                </div>
+                    
+                <div class="mySlides fade" style="display: none;">
+                <img src="img/slideshow/img5.jpg" alt="Portrait of a Man" style="width:100%">
+                </div>
+            
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                <div class="dots" style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                    <span class="dot" onclick="currentSlide(5)"></span>
+                </div>
+            </div>
+
+            <div class="slidetext">
+                <h2>Don't forget me</h2>
+                <br>
+                <h3 id="myTitle">Portret of young lady</h3>
+                <p id="myDescription">
+                    There isn't a lot of information about the revolutionary painting from the late fifteenth century. 
+                    We do know who made the painting. 
+                    It's Petrus Christus (1425-1476), 
+                    a Vlaamse painter from the late gotiek. 
+                    He can also be recognized by the weird way he paints, 
+                    that indicates that he's from that time.
+                </p>
+            </div>
+            <script src="js/slideshowEnglish.js"></script>
         </div>
-        <script src="js/slideshowEnglish.js"></script>
-    </div>
-    <img class="route" src="img/RoutePlaceHolder.jpg" alt="interactieve route placeholder">
-    </article>
+        <img class="route" src="img/RoutePlaceHolder.jpg" alt="interactive route placeholder">
+        <div class="overzicht">
+            <div class="blockpadding">
+                <h3>Exhibitions</h3>
+                <p><b>current exhibition(s)</b></p>
+                <ul>
+                    <li>The Eregallerij</li>
+                </ul>
+                <p><b>coming exhibition(s)</b></p>
+                <ul>
+                    <li>-</li>
+                </ul>
+                <p><b>past exhibition(s)</b></p>
+                <ul>
+                    <li>Don't forget me</li>
+                    <li>Ed van der Elsken – Crazy World</li>
+                    <li>Willem Diepraam – 50 jaar fotografie</li>
+                    <li>Document Netherlands Junior</li>
+                    <li>Slavery</li>
+                </ul>
+            </div>
+        </div>
+        <img class="reviews" src="img/reviewsenglish.jpg" alt="rijksmuseum reviews">
+        <img class="ratings" src="img/rating.JPG" alt="Rijksmuseum rating">
+        </article>
+    </main>
+    <p class="line"></p>
     <footer>
-        <p class="line"></p>
-        <p>
-            Rijksmuseum Amsterdam
-            Postbus 74888
-            1070 DN Amsterdam
-            E-mail: info@rijksmuseum.nl
-            Telefoonnummer: +31 (0) 20 6747 000
-        </p>
-        <p>Bezoekadres
-            Museumstraat 1
-            1071 XX Amsterdam
-            
-            Vestigingsadres
-            Hobbemastraat 20
-            1071 ZC Amsterdam
-            
-            KvK Amsterdam: 41215141
-        </p>
-        <p>Tijdelijk gesloten</p>
+        <ul class="footerinfo">
+            <li><b>Rijksmuseum Amsterdam</b></li>
+            <li>Postbus 74888</li>
+            <li>1070 DN Amsterdam<br><br></li>
+            <li>E-mail: info@rijksmuseum.nl</li>
+            <li>Telefoonnummer: +31 (0) 20 6747 000</li>
+            <li>KvK Amsterdam: 41215141</li>
+        </ul>
+        <ul class="footerinfo">
+            <li><b>Opening hours</b></li>
+            <li>Temporarily closed</li>
+        </ul>
+        <ul class="footerinfo">
+            <li><b>Visiting adress</b></li>
+            <li>Museumstraat 1</li>
+            <li>1071 XX Amsterdam</li>
+        </ul>
+        <ul class="footerinfo">
+            <li><b>Location adress</b></li>
+            <li>Hobbemastraat 20</li>
+            <li>1071 ZC Amsterdam</li>
+        </ul>
     </footer>
 </body>
 </html>

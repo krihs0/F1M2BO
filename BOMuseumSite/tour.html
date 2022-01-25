@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/headerfooter.css">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/article.css">
-    <link rel="stylesheet" href="css/slideshow.css">
+    <link rel="stylesheet" href="css/tour.css">
     <link rel="stylesheet" href="css/responsive.css">
     <title>Rijksmuseum</title>
     <link rel="icon" type="image/png" sizes="32x32" href="https://rijks-frontend.azureedge.net/favicon-32x32.png?v=xHzShAdAMcb1lK8mIRC0B_mRMw0MoZBS32w2-SyO07w">
@@ -20,9 +19,8 @@
             </a>
         </div>
         <div class="header">
-            <nav>
+            <nav class="nav">
                 <a class="pointer" href="tour.html">Tour</a>
-                <a class="pointer" href="info.html">Info</a>
                 <a class="pointer" href="https://www.rijksmuseum.nl/nl/tickets/artikelen">Tickets</a>
                 <img class="pointer" onclick="DayNight()" src="img/night-mode1.png" alt="night/day mode icon">
                 <img class="pointer" onclick="onClickNL()" src="img/NL-vlag.jpeg" alt="Nederlandse vlag">
@@ -31,14 +29,32 @@
         </div>
     </header>
     <main>
-        <div class="main"><div class="routesoon"><b>Coming Soon</b></div></div>
+        
+            <img id="myImage" src="img/tour/foto1.jpg" height="600px" alt="rijksmuseum tour foto">
+            <img id="myMap" src="img/tour/map1.jpg" alt="rijksmuseum plattegrond">
+            <div id="container">
+            <div id="myInteraction">
+                <div id="myTitle">titel</div>
+                <input type="text" id="myInput" autofocus autocomplete="off">
+                <input type="button" value="voer in" onclick="getInput()">
+                <h3>Kies welke richting je op wilt:</h3>
+                <nav>
+                    <button id="knopNoord" onclick="goDirection('noord')">Noord</button>
+                    <button id="knopWest" onclick="goDirection('west')">West</button>
+                    <button id="knopOost" onclick="goDirection('oost')">Oost</button>
+                    <button id="knopZuid" onclick="goDirection('zuid')">Zuid</button>
+                </nav>
+    
+            </div>
+        </div>
+        <script src="js/tour.js"></script>
     </main>
     <p class="line"></p>
     <footer>
         <ul class="footerinfo">
             <li><b>Rijksmuseum Amsterdam</b></li>
             <li>Postbus 74888</li>
-            <li>1070 DN Amsterdam</li>
+            <li>1070 DN Amsterdam<br><br></li>
             <li>E-mail: info@rijksmuseum.nl</li>
             <li>Telefoonnummer: +31 (0) 20 6747 000</li>
             <li>KvK Amsterdam: 41215141</li>
@@ -58,5 +74,10 @@
             <li>1071 ZC Amsterdam</li>
         </ul>
     </footer>
+    <script lang="text/javascript">
+        function DayNight(){
+            alert("in development")
+        }
+    </script>
 </body>
 </html>

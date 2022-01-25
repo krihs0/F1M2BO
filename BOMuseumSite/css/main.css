@@ -52,3 +52,7 @@ h1{
     height: 200px;
     border: solid 3px rgb(238, 255, 0);
 }
+
+.pointer{
+    cursor: pointer;
+}
