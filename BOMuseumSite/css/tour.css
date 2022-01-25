@@ -2,3 +2,54 @@ body {
     background-color: #667292;
 }
 
+.knoppen{
+    display: flex;
+    flex-direction: column;
+}
+
+#myImage{
+    width: 60vw;
+    height: auto;
+}
+
+#myMap{
+    width: 40vw;
+    height: auto;
+}
+
+.images{
+    display: flex;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+
+.container div{
+    background-color: #5d6683;
+    padding: 20px;
+}
+
+.button{
+    padding:5px;
+    background-color: #4d5772;
+    border-radius: 5px;
+    border: none;
+}
+
+.button:hover{
+    background-color: #3e4c72;
+    cursor: pointer;
+}
+
+.text{
+    border-bottom: solid white 1px;
+    margin-bottom: 10px;
+}
+
+#myInput    {
+    border-radius: 3px;
+}

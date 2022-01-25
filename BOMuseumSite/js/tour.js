@@ -16,7 +16,7 @@ let current_index = 0;
 
 let locaties =[
     {
-        "titel":"plaats 0",
+        "titel":"Eregallerij",
         "image":"img/tour/foto0.jpg",
         "map":"img/tour/map0.jpg",
         "directions":{
@@ -25,7 +25,7 @@ let locaties =[
         }
     },
     {
-        "titel":"plaats 1",
+        "titel":"Nachtwachtzaal",
         "image":"img/tour/foto1.jpg",
         "map":"img/tour/map1.jpg",
         "directions":{
@@ -34,7 +34,7 @@ let locaties =[
         }
     },
     {
-        "titel":"plaats 2",
+        "titel":"Willem van Oranje manierisme",
         "image":"img/tour/foto2.jpg",
         "map":"img/tour/map2.jpg",
         "directions":{
@@ -43,7 +43,7 @@ let locaties =[
         }
     },
     {
-        "titel":"plaats 3",
+        "titel":"Wandtapijten",
         "image":"img/tour/foto3.jpg",
         "map":"img/tour/map3.jpg",
         "directions":{
@@ -52,7 +52,7 @@ let locaties =[
         }
     },
     {
-        "titel":"plaats 4",
+        "titel":"Kunstkamer",
         "image":"img/tour/foto4.jpg",
         "map":"img/tour/map4.jpg",
         "directions":{
@@ -62,7 +62,7 @@ let locaties =[
         }
     },
     {
-        "titel":"plaats 5",
+        "titel":"Vlaamse invloeden",
         "image":"img/tour/foto5.jpg",
         "map":"img/tour/map5.jpg",
         "directions":{
@@ -71,7 +71,7 @@ let locaties =[
         }
     },
     {
-        "titel":"plaats 6",
+        "titel":"Hugo de Groot",
         "image":"img/tour/foto6.jpg",
         "map":"img/tour/map6.jpg",
         "directions":{
@@ -80,7 +80,7 @@ let locaties =[
         }
     },
     {
-        "titel":"plaats 7",
+        "titel":"Avercamp",
         "image":"img/tour/foto7.jpg",
         "map":"img/tour/map7.jpg",
         "directions":{
@@ -89,7 +89,7 @@ let locaties =[
         }
     },
     {
-        "titel":"plaats 8",
+        "titel":"Prenten",
         "image":"img/tour/foto8.jpg",
         "map":"img/tour/map8.jpg",
         "directions":{
@@ -99,7 +99,7 @@ let locaties =[
         }
     },
     {
-        "titel":"plaats 9",
+        "titel":"De jonge Rembrandt vrede van Munster",
         "image":"img/tour/foto9.jpg",
         "map":"img/tour/map9.jpg",
         "directions":{
@@ -107,7 +107,7 @@ let locaties =[
         }
     },
     {
-        "titel":"plaats 10",
+        "titel":"Nova Zembla",
         "image":"img/tour/foto10.jpg",
         "map":"img/tour/map10.jpg",
         "directions":{
@@ -116,7 +116,7 @@ let locaties =[
         }
     },
     {
-        "titel":"plaats 11",
+        "titel":"Voorhal",
         "image":"img/tour/foto11.jpg",
         "map":"img/tour/map11.jpg",
         "directions":{

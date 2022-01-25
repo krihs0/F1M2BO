@@ -29,22 +29,25 @@
         </div>
     </header>
     <main>
-        
+        <div class="images">
             <img id="myImage" src="img/tour/foto1.jpg" height="600px" alt="rijksmuseum tour foto">
             <img id="myMap" src="img/tour/map1.jpg" alt="rijksmuseum plattegrond">
-            <div id="container">
-            <div id="myInteraction">
-                <div id="myTitle">titel</div>
+        </div>
+        <div class="container">
+            <div>
+                <h3 class="text" id="myTitle">titel</h3>
+                <p>Voer in waar je heen wilt:</p>
                 <input type="text" id="myInput" autofocus autocomplete="off">
-                <input type="button" value="voer in" onclick="getInput()">
-                <h3>Kies welke richting je op wilt:</h3>
+                <input class="button" type="button" value="voer in" onclick="getInput()">
+            </div>
+            <div class="knoppen">
+                <p class="text"><b>Kies welke richting je op wilt:</b></p>
                 <nav>
-                    <button id="knopNoord" onclick="goDirection('noord')">Noord</button>
-                    <button id="knopWest" onclick="goDirection('west')">West</button>
-                    <button id="knopOost" onclick="goDirection('oost')">Oost</button>
-                    <button id="knopZuid" onclick="goDirection('zuid')">Zuid</button>
+                    <button class="button" id="knopNoord" onclick="goDirection('noord')">Noord</button>
+                    <button class="button" id="knopWest" onclick="goDirection('west')">West</button>
+                    <button class="button" id="knopOost" onclick="goDirection('oost')">Oost</button>
+                    <button class="button" id="knopZuid" onclick="goDirection('zuid')">Zuid</button>
                 </nav>
-    
             </div>
         </div>
         <script src="js/tour.js"></script>
