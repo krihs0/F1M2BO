@@ -2,35 +2,23 @@ body {
     background-color: #667292;
 }
 
-.knoppen{
-    display: flex;
-    flex-direction: column;
+.container {
+    background-color: rgb(112, 112, 148);
+    width: 80vw;
+    height: 60vh;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    border: inset 5px rgb(90, 90, 90);
 }
 
-#myImage{
-    width: 60vw;
-    height: auto;
+#myImage, 
+.navigation{
+    height: 59vh;
 }
 
 #myMap{
-    width: 40vw;
-    height: auto;
-}
-
-.images{
-    display: flex;
-}
-
-.container{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    padding: 50px;
-}
-
-.container div{
-    background-color: #5d6683;
-    padding: 20px;
+    width: 28.34vw
 }
 
 .button{
@@ -52,4 +40,29 @@ body {
 
 #myInput    {
     border-radius: 3px;
+}
+
+.navigation div{
+    margin: 10px 0 0 10px;
+}
+
+.routetext a{
+    background-color: #5d6683;
+    text-decoration: none;
+    padding:10px;
+}
+
+.routetext a:hover{
+    cursor: pointer;
+    background-color: #525a72;
+}
+
+.routetext p{
+    margin-bottom: 20px;
+    width: 20vw;
+}
+
+.routetext{
+    float: right;
+    margin-top: 90px;
 }

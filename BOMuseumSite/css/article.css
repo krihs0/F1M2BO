@@ -40,3 +40,24 @@ body {
 .ratings{
     padding-left: 50px;
 }
+
+.routetext a{
+    background-color: #5d6683;
+    text-decoration: none;
+    padding:10px;
+}
+
+.routetext a:hover{
+    cursor: pointer;
+    background-color: #525a72;
+}
+
+.routetext p{
+    margin-bottom: 20px;
+    width: 20vw;
+}
+
+.routetext{
+    float: right;
+    margin-top: 90px;
+}

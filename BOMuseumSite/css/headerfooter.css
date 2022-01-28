@@ -6,6 +6,9 @@
     color: white;
 }
 
+.daynight{
+    display: none;
+}
 
 header{
     display: flex;

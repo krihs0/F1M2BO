@@ -162,3 +162,11 @@ function goDirection(richting){
 }
 
 show(0);
+
+function onClickUK(){
+    window.location.assign("tourenglish.html");
+}
+
+  function onClickNL(){
+    window.location.assign("tour.html");
+}
